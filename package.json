@@ -1,0 +1,19 @@
+{
+  "name": "PWADEMO-with-ServiceWorkers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "service-worker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sw": "sw-precache --config=tools/precache.js --verbose",
+    "deploy": "gh-pages -d ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gh-pages": "^1.0.0",
+    "sw-precache": "^5.2.0"
+  }
+}

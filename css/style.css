@@ -1,0 +1,57 @@
+nav {
+    height: 75px;
+    line-height: 75px;
+}
+
+nav .nav-wrapper {
+    margin: 0 auto;
+    width: 90%;
+}
+
+nav .brand-logo {
+    position: absolute;
+    fill: white;
+    font-size: 30px;
+    padding-top: 5px;
+}
+
+.brand-logo h5 {
+    margin: 0 10px;
+    transform: translateY(-25%);
+    font-family: monospace;
+    font-weight: bold;
+    color: goldenrod;
+    display: inline-block;
+}
+
+.right {
+    height: 75px;
+    line-height: 75px;
+}
+
+nav i.material-icons {
+    line-height: 75px;
+    font-size: 30px;
+    transform: skewX(18deg);
+}
+
+/***        //////////////////  **?////
+/** Card Styling **/
+.card-stacked {
+    background: url('../images/card-bg.png') center no-repeat;
+    background-size: cover;
+}
+
+.card-stacked .card-title {
+    color: darkorange;
+    font-weight: bold;
+}
+
+.card .card-content p {
+    color: springgreen;
+}
+
+.card-stacked .card-link {
+    font-size: 18px;
+    font-weight: bold;
+}
